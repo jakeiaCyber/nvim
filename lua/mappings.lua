@@ -30,7 +30,6 @@ map("n", "<leader>fn", "<cmd>NoiceTelescope<cr>", { desc = "Telescope find noice
 map("n", "<leader>e", "<cmd>NvimTreeToggle<CR>", { desc = "nvimtree toggle window" })
 map("n", "<C-n>", "<cmd>NvimTreeFocus<CR>", { desc = "nvimtree focus window" })
 map("n", "<leader>fm", "<cmd>Telescope zoxide list<cr>", { desc = "Find directories" })
-map("n", "<leader>fe", "<cmd>Telescope file_browser<cr>", { desc = "Open file browser" })
 
 map("n", "tw", "<cmd>vsp<cr>", { desc = "Split window" })
 map("n", "tv", "<cmd>sp<cr>", { desc = "Split window" })
