@@ -16,7 +16,7 @@ return {
     "chaozwn/auto-save.nvim",
     event = "InsertEnter",
     opts = {
-      debounce_delay = 3000,
+      debounce_delay = 1500,
       print_enabled = false,
       trigger_events = { "TextChanged" },
       condition = function(buf)
