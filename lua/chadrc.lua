@@ -8,7 +8,7 @@ M.ui = {
   theme = "catppuccin",
   -- transparency = true,
   cmp = {
-    style = "atom_colored",
+    style = "default",
   },
   nvdash = {
     load_on_startup = true,
