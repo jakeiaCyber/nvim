@@ -86,43 +86,9 @@ return {
         { name = "luasnip" },
         { name = "buffer" },
         { name = "nvim_lua" },
-        { name = "cmdline" },
       },
       experimental = {
         ghost_text = true,
-      },
-    },
-
-    dependencies = {
-      {
-        "hrsh7th/cmp-cmdline",
-        event = { "CmdLineEnter" },
-        opts = { history = true, updateevents = "CmdlineEnter,CmdlineChanged" },
-        config = function()
-          local cmp = require "cmp"
-
-          cmp.setup.cmdline("/", {
-            mapping = cmp.mapping.preset.cmdline(),
-            sources = {
-              { name = "buffer" },
-            },
-          })
-
-          -- `:` cmdline setup.
-          cmp.setup.cmdline(":", {
-            mapping = cmp.mapping.preset.cmdline(),
-            sources = cmp.config.sources({
-              { name = "path" },
-            }, {
-              {
-                name = "cmdline",
-                option = {
-                  ignore_cmds = { "Man", "!" },
-                },
-              },
-            }),
-          })
-        end,
       },
     },
   },
