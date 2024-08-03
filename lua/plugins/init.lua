@@ -13,6 +13,13 @@ local function is_ju_py_file(buf)
 end
 return {
   {
+    "nvim-tree/nvim-tree.lua",
+    cmd = { "NvimTreeToggle", "NvimTreeFocus" },
+    opts = function()
+      return require "configs.nvimtree"
+    end,
+  },
+  {
     "chaozwn/auto-save.nvim",
     event = "InsertEnter",
     opts = {
