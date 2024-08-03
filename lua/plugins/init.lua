@@ -13,6 +13,12 @@ local function is_ju_py_file(buf)
 end
 return {
   {
+    "rcarriga/nvim-notify",
+    opts = {
+      timeout = 1000,
+    },
+  },
+  {
     "nvim-tree/nvim-tree.lua",
     cmd = { "NvimTreeToggle", "NvimTreeFocus" },
     opts = function()
