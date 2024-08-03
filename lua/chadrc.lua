@@ -21,9 +21,6 @@ M.ui = {
     -- Comment = { italic = true },
     ["@comment"] = { italic = true },
   },
-  -- tabufline = {
-  --   enabled = false,
-  -- },
 }
 
 M.lsp = {
