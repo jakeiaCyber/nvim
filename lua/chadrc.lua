@@ -5,17 +5,17 @@
 local M = {}
 
 M.ui = {
-  theme = "catppuccin",
+  theme = "tokyonight",
   -- transparency = true,
   cmp = {
-    style = "default",
+    style = "atom_colored",
   },
   nvdash = {
     load_on_startup = true,
   },
   statusline = {
-    theme = "minimal",
-    separator_style = "round",
+    theme = "default",
+    separator_style = "arrow",
   },
   hl_override = {
     -- Comment = { italic = true },
