@@ -286,6 +286,7 @@ return {
         "lua",
         "vimdoc",
         "cpp",
+        "python",
       },
     },
   },
