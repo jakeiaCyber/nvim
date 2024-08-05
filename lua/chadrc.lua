@@ -10,9 +10,6 @@ M.ui = {
   cmp = {
     style = "atom_colored",
   },
-  nvdash = {
-    load_on_startup = true,
-  },
   statusline = {
     theme = "default",
     separator_style = "arrow",
