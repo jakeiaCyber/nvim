@@ -4,19 +4,20 @@
 ---@type ChadrcConfig
 local M = {}
 
+M.base46 = {
+  theme = "tokyonight",
+  hl_override = {
+    -- Comment = { italic = true },
+    ["@comment"] = { italic = true },
+  },
+}
 M.ui = {
-  theme = "catppuccin",
-  -- transparency = true,
   cmp = {
-    style = "atom_colored",
+    style = "default",
   },
   statusline = {
     theme = "default",
     separator_style = "arrow",
-  },
-  hl_override = {
-    -- Comment = { italic = true },
-    ["@comment"] = { italic = true },
   },
 }
 
